@@ -1,0 +1,17 @@
+:root {
+    --saseunm-color: #37c5b3;
+}
+
+.navbar-brand-img {
+    height: 75px;
+    margin-right: 10px;
+}
+
+.btn-sase-custom {
+    background-color: var(--saseunm-color);
+    border-color: var(--saseunm-color);
+    color: #fff; /* Or another suitable text color */
+  }
+
+
+
