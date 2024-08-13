@@ -3,8 +3,12 @@
 }
 
 .navbar-brand-img {
-    height: 75px;
+    height: 125px;
     margin-right: 10px;
+}
+
+.footer-img {
+    height: 125px;
 }
 
 .btn-sase-custom {
@@ -13,5 +17,35 @@
     color: #fff; /* Or another suitable text color */
   }
 
+section {
+    padding-top: 25px; /* Adjust the value as needed */
+    padding-bottom: 50px; /* Adjust the value as needed */
+  }
+
+.btn {
+    border-radius: 0px;
+    border-color: #fff;
+}
+
+/* Custom styles for form input boxes */
+.form-control {
+    border-radius: 0; /* Removes the default rounded corners */
+    border: 2px solid white; /* Adds a white border */
+    background-color: #212529; /* Sets the background to black */
+    color: white; /* Sets the text color to white */
+}
+
+.form-control::placeholder {
+    color: white; /* Sets the placeholder text color to white */
+}
+
+.form-control:focus {
+    border-color: #ffffff; /* Keeps the border white on focus */
+    box-shadow: none; /* Removes the default box shadow on focus */
+}
+
+label {
+    color: white; /* Sets label text color to white */
+}
 
 
